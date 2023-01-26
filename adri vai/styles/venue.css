@@ -1,0 +1,60 @@
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 10px 0px;
+    gap: 20px;
+}
+.search select{
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.search button{
+    width: 180px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.venueLast{
+    width: 90%;
+    background-color: #F4F4F4;
+    transform: translateX(5%);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.venueLast img{
+    height: 230px;
+}
+.venueLast .txt{
+    display: flex;
+    flex-direction: column;
+}
+.venueLast .span1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.venueLast  .span2{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.venueLast button{
+    margin-left: 750px;
+    background-color: #d2d2d2;
+    width: 130px;
+    margin-bottom: 20px;
+}
+.card a{
+    color: black;
+    text-decoration: none;
+    margin-top: 57px;
+}

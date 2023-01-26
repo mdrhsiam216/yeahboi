@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  height: 140px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+nav img {
+  height: 110px;
+}
+
+nav .name {
+  position: absolute;
+  top: 28px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+}
+nav ul {
+  display: flex;
+  position: absolute;
+  top: 90px;
+  left: 510px;
+  text-align: center;
+  align-items: baseline;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  margin-right: 61px;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav .login {
+  width: 84px;
+  height: 30px;
+  position: absolute;
+  top: 27px;
+  right: 200px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.login:hover {
+  text-decoration: underline;
+}
+
+nav .btn1 {
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  border: none;
+  background-color: #c4c4c4;
+  position: absolute;
+  top: 18px;
+  left: 1140px;
+}
+.btn1:hover {
+  border: 1px solid #c4c4c4;
+  color: #c4c4c4;
+  background-color: white;
+  transition: 0.4s ease;
+}
+
+nav ul li img {
+  width: 20px;
+  height: 20px;
+  background-color: #c4c4c4;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #c4c4c4;
+}
+nav ul li img:hover {
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  filter: drop-shadow(2px 2px 4px #c4c4c4);
+  transition: 0.5s ease;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  cursor: pointer;
+  z-index: +1;
+}

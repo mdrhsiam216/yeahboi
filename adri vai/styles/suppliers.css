@@ -1,0 +1,24 @@
+.cards1{
+    width: 170px;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0px;
+    margin: 0px;
+}
+
+.card1{
+    /* background-color: red; */
+    border: transparent;
+    cursor: pointer;
+}
+
+.card1 .img{
+    width: 150px;
+    height: 150px;
+}
+.cards1 .img img{
+    width: 150px;
+    
+}
