@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>adri vai</title>
+    <!-- cdn links -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- styleSheets -->
+    <link rel="stylesheet" href="/styles/nav.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+
+    <!-- javaScript -->
+    <script src="/JS/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="">
+        <div class="navbar">
+          <img src="/img/logo.png" alt="Logo" />
+          <span class="name">East West University Event<br />Management</span>
+          <a href="#" class="login">LOGIN</a>
+          <button class="btn1">SIGNUP</button>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/other html/venue.html">Venue</a></li>
+            <li><a href="/other html/suppliers.html">Suppliers</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><img src="/img/search 1.png" alt="" /></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <hr />
+
+    <main>
+      <div class="div1">
+        <span>Your Event, Your Way</span>
+        <div class="sel">
+          <select name="" id="" class="select1 select">
+            <option value="">Select catagory</option>
+            <option value="">Birthday</option>
+            <option value="">Weeding</option>
+          </select>
+
+          <select name="" id="" class="select2 select">
+            <option value="">Mymensingh</option>
+            <option value="">Netrakona</option>
+            <option value="">Dhaka</option>
+          </select>
+          <button class="btn2">Search</button>
+        </div>
+      </div>
+
+      <div class="div2">
+        <span class="span1"
+          >East West<br />University Event<br />Management</span
+        >
+        <span class="span2">Make Your Event<br />Picture Perfet</span>
+      </div>
+
+      <div class="div3">
+        <div class="div31">
+          <span class="span31">Browse By catagory</span>
+          <span class="span32">view all(10)</span>
+        </div>
+
+        <div class="div32 swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="container swiper-slide">
+              <div class="card">
+                <img src="/img/FLASH 1.png" alt="" />
+                <label for="img">Flash Mob</label>
+              </div>
+
+              <div class="card">
+                <img src="/img/FLASH (1) 1.png" alt="" />
+                <label for="">Tours & Travels</label>
+              </div>
+
+              <div class="card">
+                <img src="/img/FLASH (2) 1.png" alt="" />
+                <label for="">Photography<br />& Videography</label>
+              </div>
+
+              <div class="card">
+                <img src="/img/FLASH (3) 1.png" alt="" />
+                <label for="">EWU Debate Spree</label>
+              </div>
+            </div>
+
+            <!-- slide 2 -->
+
+            <div class="container swiper-slide">
+              <div class="card">
+                <img src="/img/FLASH 1.png" alt="" />
+                <label for="img">Flash Mob</label>
+              </div>
+
+              <div class="card">
+                <img src="/img/FLASH (1) 1.png" alt="" />
+                <label for="">Tours & Travels</label>
+              </div>
+
+              <div class="card">
+                <img src="/img/FLASH (2) 1.png" alt="" />
+                <label for="">Photography<br />& Videography</label>
+              </div>
+
+              <div class="card">
+                <img src="/img/FLASH (3) 1.png" alt="" />
+                <label for="">EWU Debate Spree</label>
+              </div>
+            </div>
+
+            <!-- slide 3 -->
+            <div class="container swiper-slide">
+              <div class="card">
+                <img src="/img/FLASH 1.png" alt="" />
+                <label for="img">Flash Mob</label>
+              </div>
+
+              <div class="card">
+                <img src="/img/FLASH (1) 1.png" alt="" />
+                <label for="">Tours & Travels</label>
+              </div>
+
+              <div class="card">
+                <img src="/img/FLASH (2) 1.png" alt="" />
+                <label for="">Photography<br />& Videography</label>
+              </div>
+
+              <div class="card">
+                <img src="/img/FLASH (3) 1.png" alt="" />
+                <label for="">EWU Debate Spree</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div> -->
+
+        <div class="div31">
+          <span class="span31">Featured Videos</span>
+          <span class="span41">view all(50)</span>
+        </div>
+      </div>
+
+      <div class="div4">
+        <div class="card1">
+          <img src="/img/football.png" alt="" />
+          <span>EWU FOOTBALL TOURNAMENT</span>
+        </div>
+
+        <div class="card1">
+          <img src="/img/treasure hunt.png" alt="" />
+          <span>TREASURE HUNT 5.0</span>
+        </div>
+
+        <div class="card1">
+          <img src="/img/marathon.png" alt="" />
+          <span>MARATHON</span>
+        </div>
+
+        <div class="card1">
+          <img src="/img/valorant.png" alt="" />
+          <span>VALORANT CUP</span>
+        </div>
+
+        <div class="card1">
+          <img src="/img/flash mob t20 1.png" alt="" />
+          <span>FLASH MOB 2020</span>
+        </div>
+
+        <div class="card1">
+          <img src="/img/Rectangle 9.png" alt="" />
+          <span>/////</span>
+        </div>
+
+        <div class="card1">
+          <img src="/img/Rectangle 9.png" alt="" />
+          <span>/////</span>
+        </div>
+
+        <div class="card1">
+          <img src="/img/Rectangle 9.png" alt="" />
+          <span>//////</span>
+        </div>
+      </div>
+
+      <div class="div31">
+        <span class="span31">Reviews</span>
+      </div>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="div5 swiper-slide">
+            <div class="card2">
+              <img src="/img/sabik_hasan.png" alt="" />
+              <p>
+                <span>Sabik Hasan Adri</span><br />
+                I was incredibly happy with the event and so impressed that you
+                understood what we wanted and our vision.
+              </p>
+            </div>
+            <div class="card2">
+              <img src="/img/avatar.png" alt="" />
+              <p>
+                <span>Rifat Nawaz</span><br />
+                I was incredibly happy with the event and so impressed that you
+                understood what we wanted and our vision.
+              </p>
+            </div>
+          </div>
+          <!-- slide2 -->
+          <div class="swiper-slide">
+            <div class="card2">
+              <img src="/img/sabik_hasan.png" alt="" />
+              <p>
+                <span>Sabik Hasan Adri</span><br />
+                I was incredibly happy with the event and so impressed that you
+                understood what we wanted and our vision.
+              </p>
+            </div>
+
+            <div class="card2">
+              <img src="/img/avatar.png" alt="" />
+              <p>
+                <span>Rifat Nawaz</span><br />
+                I was incredibly happy with the event and so impressed that you
+                understood what we wanted and our vision.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="foot1">
+        <img src="/img/logo.png" alt="" />
+        <span class="txt">Social Media</span>
+        <div class="footLogo">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+
+      <div class="foot2">
+        <span class="txt1">venue</span>
+        <span>EWU GROUND</span>
+        <span>EWU AUDITORIAM</span>
+        <span>AFTABNAGAR GROUND</span>
+        <span>BASUNDHARA</span>
+        <span>CONVENTION CENTER</span>
+        <span>HATIR JHILL</span>
+      </div>
+      <div class="foot3">
+        <span class="txt1">suppliers</span>
+        <span>PHOTOGRAPHERS</span>
+        <span>DECORATORS</span>
+        <span>VENUE PLANNERS</span>
+        <span>CHOREOGRAPHERS</span>
+        <span>DESIGNERS</span>
+        <span>MAKEUP ARTISTS</span>
+      </div>
+      <div class="foot4">
+        <span class="txt1">Quick links</span>
+        <span>CONTACT US</span>
+        <span>PRIVACY POLICY</span>
+        <span>TERMS & CONDITIONS</span>
+      </div>
+      <div class="foot5">
+        <span class="txt1">Newsletter</span>
+        <span>Subscribe to Get Latest media updates</span>
+        <button class="btnfoot">live chat</button>
+      </div>
+    </footer>
+    <div class="credit">
+      <span>made by adri vai jin</span>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 5500,
+          disableOnInteraction: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
